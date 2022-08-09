@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7fc7eeb-b979-455d-9c6e-66a5d0371770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProject/JavaProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My Company.iml" afterDir="false" />
+    <list default="true" id="c7fc7eeb-b979-455d-9c6e-66a5d0371770" name="Changes" comment="The code">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem2/Battle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wmad2022-CourseProject1/wmad2022-CourseProject1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem1/Castles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem1/Castles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem1/peaksAndValleys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem1/peaksAndValleys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem2/Problem2Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem2/Problem2Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem2/TransformationCompanyInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjectMain/ProjectDriver.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,20 @@
       <recent name="Problem2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem2Driver">
+  <component name="RunManager" selected="Application.Problem2.Problem2Driver">
+    <configuration name="Problem1Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProjectMain.Problem1Driver" />
+      <module name="My Company" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProjectMain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Problem2Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem2.Problem2Driver" />
       <module name="My Company" />
@@ -66,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProjectMain.ProjectDriver" />
+    <configuration name="ProblemDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem1.ProblemDriver" />
       <module name="My Company" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProjectMain.*" />
+          <option name="PATTERN" value="Problem1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,8 +96,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Problem2Driver" />
-        <item itemvalue="Application.ProjectDriver" />
+        <item itemvalue="Application.Problem2.Problem2Driver" />
+        <item itemvalue="Application.ProblemDriver" />
+        <item itemvalue="Application.Problem1Driver" />
       </list>
     </recent_temporary>
   </component>
@@ -95,6 +111,14 @@
       <option name="presentableId" value="Default" />
       <updated>1659500042004</updated>
     </task>
+    <task id="LOCAL-00001" summary="The code">
+      <created>1659751679454</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659751679454</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +131,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="The code" />
+    <option name="LAST_COMMIT_MESSAGE" value="The code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/My_Company$ProjectDriver.ic" NAME="ProjectDriver Coverage Results" MODIFIED="1659651391302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
